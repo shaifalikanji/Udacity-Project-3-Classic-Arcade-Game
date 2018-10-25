@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+}
+
+h1 {
+	font-size: 30px;
+	color: pink;
+	padding-bottom: -1px
+	font: bolder;
+}
+
+
+
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+.modal_replay {
+    background-color:#66CCFF ;
+    padding: 0.3rem 3rem;
+    font-size: 1.2rem;
+    width: 30%;
+    font-family: inherit;, cursive;
+    font-style:bold;
+    color: #D600FA;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
