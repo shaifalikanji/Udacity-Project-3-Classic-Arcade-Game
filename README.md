@@ -1,5 +1,5 @@
 # Front-End-Nanodegree-Arcade-Game
-===============================
+
 
 Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
 
@@ -30,6 +30,7 @@ Source: Udacity Project Rubric.
 3. You can choose either Plain JavaScript/ES6 JavaScript features to code your game.
 4. If you choose to use ES6, create one object class and constructor, then use the “new” keyword and create new objects for the (player) and (enemy). 
 5. The new objects will inherit properties and methods(functions) from the original object class. Then create additional functions(methods)/properties for each “new object” defined.
+6. Feel free to use the references provided below to code your game.
 
 ## **Coding requirements for the game**:
 
@@ -65,7 +66,7 @@ Source: Udacity Project Rubric.
 Choose random speeds for start of the game, and repeated looping of the enemy
 7.	objects move on their own (update () function) causes the enemy to move
 8.	check for collisions function ():  checks the colliding numbers on the player and enemy, if they end up colliding a collision happens. Function can be used on player or enemy or both. If the player collides with the enemy or the enemy collides with the player a collision happens. 
-9.	
+
 
 
 *Step 4: Both (Player && Enemy)* 
