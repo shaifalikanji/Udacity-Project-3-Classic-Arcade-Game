@@ -8,12 +8,13 @@ For detailed instructions on how to get started, check out this [guide](https://
 
 # **Classic Arcade Game Information**
 
-•	 this game you have a Player and Enemies (Bugs). The goal of the player is to reach the water, without colliding into any  one of the enemies. 
-•	 player can move left, right, up and down. 
-•	The enemies move in varying speeds on the paved block portion of the scene. 
-•	Once the player collides with an enemy, the game is reset and the player moves back to the start square.
-•	Once the player reaches the water the game is won. 
-•	Your goal is to make this game functional and error free.
+1. In this game you have a Player and Enemies (Bugs). The goal of the player is to reach the water, without colliding into any  one of the enemies. 
+2. player can move left, right, up and down. 
+3. The enemies move in varying speeds on the paved block portion of the scene. 
+4. Once the player collides with an enemy, the game is reset and the player moves back to the start square.
+5. Once the player reaches the water the game is won. 
+6. Your goal is to make this game functional and error free.
+
 Source: Udacity Project Rubric.
 
 ## **Required knowledge and understanding of basics JavaScript concepts**:
@@ -24,10 +25,11 @@ Source: Udacity Project Rubric.
 
 ## **Startup summary**:
 
-•	Plan your code first: so, your code is structured, clean, precise and easy to understand.
-•	Please note: when creating objects focus on the properties (characteristics of the object) and methods (using functions define what exactly does your object do). Please choose either Plain JavaScript/ES6 JavaScript features to code your game.
-•	If you choose to use ES6, create one object class and constructor. Then use the “new” keyword and create new objects for the (player) and (enemy). The new objects will inherit properties and methods(functions) from the original object class. Then create additional functions(methods)/properties for each “new object” defined.
-
+1. Plan your code first: so, your code is structured, clean, precise and easy to understand.
+2. Please note: when creating objects focus on the properties (characteristics of the object) and methods (using functions define what exactly does your object do). 
+3. You can choose either Plain JavaScript/ES6 JavaScript features to code your game.
+4. If you choose to use ES6, create one object class and constructor, then use the “new” keyword and create new objects for the (player) and (enemy). 
+5. The new objects will inherit properties and methods(functions) from the original object class. Then create additional functions(methods)/properties for each “new object” defined.
 
 ## **Coding requirements for the game**:
 
