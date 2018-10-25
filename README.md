@@ -71,4 +71,26 @@ Step 4: Both (Player && Enemy)
 1.	move left and right by changing the x property
 2.	get player and enemy moving
 
+REFERENCES USED FOR THE PROJECT
+
+•	https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection
+•	https://lowrey.me/modals-in-pure-es6-javascript/
+•	https://css-tricks.com/snippets/javascript/javascript-keycodes/
+•	https://stackoverflow.com/questions/13916966/adding-collision-detection-to-images-drawn-on-canvas
+•	http://blog.sklambert.com/html5-canvas-game-2d-collision-detection#d-collision-detection
+•	https://www.youtube.com/watch?v=XEVnMgYblGc&index=3&list=PLKC17wty6rS1XVZbRlWjYU0WVsIoJyO3s
+•	https://knowledge.udacity.com/?nanodegree=5ccda402-496f-11e8-b4ff-439352d5243c&page=1&project=982bdd8a-83f2-11e8-9974-9f9e5c0319d8
+•	https://discussions.udacity.com/t/i-dont-understand-how-to-code-classic-arcade-game/527836/2?u=solittletime
+•	https://zoom.us/recording/play/aulotDlzKFegQFIJTaTzKgWvNkVsYtlwO454vL1UPE1Cm6lOUBQCtfVurPOIAGAS?startTime=1529542978000
+•	https://www.youtube.com/watch?v=xSnuyxF54iQ&feature=youtu.be&t=2h51m2s
+•	https://www.youtube.com/watch?v=oz7pHJ65TEk&feature=youtu.be
+•	https://www.youtube.com/watch?v=JcQYGbg0IkQ
+•	https://www.youtube.com/playlist?list=PLdUdGSe4kmWbEQDQ2g8A0zPx1EM9DJZpp
+•	https://matthewcranford.com/arcade-game-walkthrough-part-1-starter-code-breakdown/
+•	https://matthewcranford.com/arcade-game-walkthrough-part-2-pseudo-code/
+•	https://matthewcranford.com/arcade-game-walkthrough-part-3-creating-a-hero/
+•	https://matthewcranford.com/arcade-game-walkthrough-part-4-heros-first-steps/
+•	https://matthewcranford.com/arcade-game-walkthrough-part-5-adding-enemies/
+•	https://matthewcranford.com/arcade-game-walkthrough-part-6-collisions-win-conditions-and-game-resets/
+•	
 
