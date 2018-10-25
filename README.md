@@ -71,5 +71,4 @@ Step 4: Both (Player && Enemy)
 1.	move left and right by changing the x property
 2.	get player and enemy moving
 
-Classic Arcade Game Image Snap Shot
-https://user-images.githubusercontent.com/38163931/47529507-e11a7b00-d85c-11e8-9d50-04e272501736.png
+
