@@ -1,4 +1,4 @@
-frontend-nanodegree-arcade-game
+#Front-End-Nanodegree-Arcade-Game
 ===============================
 
 Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
@@ -6,36 +6,36 @@ Students should use this [rubric](https://review.udacity.com/#!/projects/2696458
 For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
 
 
-Classic Arcade Game: 
+# **Classic Arcade Game Information**
 
-•	In this game you have a Player and Enemies (Bugs). The goal of the player is to reach the water, without colliding into any one of the enemies. 
-•	The player can move left, right, up and down. 
+•	 this game you have a Player and Enemies (Bugs). The goal of the player is to reach the water, without colliding into any  one of the enemies. 
+•	 player can move left, right, up and down. 
 •	The enemies move in varying speeds on the paved block portion of the scene. 
 •	Once the player collides with an enemy, the game is reset and the player moves back to the start square.
 •	Once the player reaches the water the game is won. 
 •	Your goal is to make this game functional and error free.
 Source: Udacity Project Rubric.
 
-Required knowledge and understanding of basics JavaScript concepts:
+## **Required knowledge and understanding of basics JavaScript concepts**:
+
 1.	Plain (Vanilla) JavaScript language
 2.	Object Oriented Programming using JavaScript
 3.	Understanding of: objects, constructs, prototypes (prototypal inheritance) and (“this” keyword).
 
-Startup summary:
+## **Startup summary**:
 
 •	Plan your code first: so, your code is structured, clean, precise and easy to understand.
 •	Please note: when creating objects focus on the properties (characteristics of the object) and methods (using functions define what exactly does your object do). Please choose either Plain JavaScript/ES6 JavaScript features to code your game.
 •	If you choose to use ES6, create one object class and constructor. Then use the “new” keyword and create new objects for the (player) and (enemy). The new objects will inherit properties and methods(functions) from the original object class. Then create additional functions(methods)/properties for each “new object” defined.
 
 
+## **Coding requirements for the game**:
 
-Coding requirements for the game:
-
-Step 1: 
+*Step 1 *
 
 1. Open the html.index file, right click and select “inspect source” – you will notice a list of  “Uncaught reference errors” for functions/variables/arrays that are not defined. Start with defining them first until all errors are removed.
 
-Step 2: Player 
+*Step 2 The Player* 
 
 1.	define player – create class and instantiate player
 2.	Sprite - this is the URL of the image you will use in the game
@@ -52,7 +52,7 @@ Step 2: Player
 13.	Reset your game board: create a reset function () which re-sets the entire game board including the player and enemies.
 
 
-Step 3: Enemy 
+*Step 3: The Enemy*
 
 1.	define enemy – create class and instantiate enemy
 2.	Sprite - this is the URL of the image you will use in the game
@@ -66,12 +66,13 @@ Choose random speeds for start of the game, and repeated looping of the enemy
 9.	
 
 
-Step 4: Both (Player && Enemy) 
+*Step 4: Both (Player && Enemy)* 
 
 1.	move left and right by changing the x property
 2.	get player and enemy moving
 
-REFERENCES USED FOR THE PROJECT
+
+# **References used for the project**
 
 •	https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection
 •	https://lowrey.me/modals-in-pure-es6-javascript/
@@ -92,7 +93,7 @@ REFERENCES USED FOR THE PROJECT
 •	https://matthewcranford.com/arcade-game-walkthrough-part-4-heros-first-steps/
 •	https://matthewcranford.com/arcade-game-walkthrough-part-5-adding-enemies/
 •	https://matthewcranford.com/arcade-game-walkthrough-part-6-collisions-win-conditions-and-game-resets/
-•	
+•	https://help.github.com/articles/basic-writing-and-formatting-syntax/#headings
 
-Classic Arcade Game Image Screen Shot
+## **Classic Arcade Game Image Screen Shot**
 <img width="883" alt="screen shot 2018-10-25 at 1 49 06 pm" src="https://user-images.githubusercontent.com/38163931/47530026-4f137200-d85e-11e8-85ff-c2380ef92c0d.png">
