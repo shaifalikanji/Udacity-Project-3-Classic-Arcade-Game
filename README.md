@@ -94,3 +94,5 @@ REFERENCES USED FOR THE PROJECT
 •	https://matthewcranford.com/arcade-game-walkthrough-part-6-collisions-win-conditions-and-game-resets/
 •	
 
+Classic Arcade Game Image Screen Shot
+<img width="883" alt="screen shot 2018-10-25 at 1 49 06 pm" src="https://user-images.githubusercontent.com/38163931/47530026-4f137200-d85e-11e8-85ff-c2380ef92c0d.png">
