@@ -16,7 +16,7 @@ var gameStart = true; //starts game when code runs
 
                                 //STEP#2 ***** ENEMY OBJECT ******//
                                 //includes: enemy object, functions: update, render and collision b/w player/enemy //
-
+          
 
 var Enemy = function(x,y) {  // Variables applied to each of our instances go here,
     this.width = 55;//of enemy (bugs) image size
@@ -26,7 +26,7 @@ var Enemy = function(x,y) {  // Variables applied to each of our instances go he
     this.sprite = 'images/enemy-bug.png'; // The image/sprite for our enemies, this uses helper provided to easily load images
     this.collisions = false; //currently the collision is false - nothing happening yet
 };
-
+//https://discussions.udacity.com/t/i-dont-understand-how-to-code-classic-arcade-game/527836/2?u=solittletime
 // Update the enemy's position, required method for game
 // Parameter: dt, a time delta between ticks
 //updates game after every loop
@@ -45,7 +45,8 @@ Enemy.prototype.update = function(dt) { // multiply any movement by dt parameter
 //Collision between player and enemy when both end up on the same canvas square with
 //is there a collision or not (true or false)
 //https://stackoverflow.com/questions/13916966/adding-collision-detection-to-images-drawn-on-canvas
-
+//https://www.youtube.com/watch?v=XEVnMgYblGc&index=3&list=PLKC17wty6rS1XVZbRlWjYU0WVsIoJyO3s
+//https://discussions.udacity.com/t/i-dont-understand-how-to-code-classic-arcade-game/527836/2?u=solittletime
 
 
 
@@ -83,6 +84,7 @@ Enemy.prototype.render = function() { // Draw the enemy on the screen, required 
 // Now write your own player class
 // This class requires an update(), render() and
 // a handleInput() method.
+//https://discussions.udacity.com/t/i-dont-understand-how-to-code-classic-arcade-game/527836/2?u=solittletime
 
 var Player = function(x,y) { //we passed x, y parameters here 
     this.width = 75; //of player image size 
@@ -90,10 +92,9 @@ var Player = function(x,y) { //we passed x, y parameters here
     this.x = x; //this object: posiion of player on game board screen x axis horizontal at start point and during game
     this.y = y; //this object: position of enemy on game board screen y axis vertical at start point and during game
     this.sprite = 'images/char-pink-girl.png';
-    
-    
-
 }
+
+//https://discussions.udacity.com/t/i-dont-understand-how-to-code-classic-arcade-game/527836/2?u=solittletime
 
 Player.prototype.render = function() { // Draw the player on the screen, required method for game
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
@@ -132,7 +133,6 @@ Player.prototype.handleInput = function(walk){ //this function will allow the pl
 
 
 
-
     if (walk === 'left' && this.x - xAxisHorizontal >= 0 - 100){ // player walks left on the x axis
         this.x -= xAxisHorizontal; // if player is going left and x axis greater than 0 - 100 so player doesnt go off canvas
 
@@ -150,10 +150,11 @@ Player.prototype.handleInput = function(walk){ //this function will allow the pl
     }
 
 }
+//https://www.youtube.com/watch?v=oz7pHJ65TEk&feature=youtu.be
+//https://matthewcranford.com/arcade-game-walkthrough-part-4-heros-first-steps/
+                               
 
-
-
-                                //STEP#4  ***** INSTANTIATE YOUR OBJECTS *****//
+                                  //STEP#4  ***** INSTANTIATE YOUR OBJECTS *****//
                         //***** includes: enemy array, player variable, enemy loop using map *****//
 
 
@@ -176,7 +177,8 @@ var allEnemies = [new Enemy(-190, 57), new Enemy(-380, 143), new Enemy(-570, 233
 //declaring variable with array which holds all the 3 enemies on our game board, the bugs from the
 //array will be used to loop through each of the different positions of the bugs.
 //the engine.js file uses the enemies(bugs) from this allEnemies variable, map creates new allEnemies array and loops over
-
+//https://discussions.udacity.com/t/i-dont-understand-how-to-code-classic-arcade-game/527836/2?u=solittletime
+//https://matthewcranford.com/arcade-game-walkthrough-part-4-heros-first-steps/
 
 function congratulations() {
     reset();
@@ -190,21 +192,18 @@ function congratulations() {
 function reset() {
     allEnemies = [];
 
-    
-
-
 }   
 
 
-//https://stackoverflow.com/questions/13916966/adding-collision-detection-to-images-drawn-on-canvas
 function collisions(ex, ey, ew, eh, px, py, pw, ph) {
     return (Math.abs(px - ex) * 2 < pw + ew) && (Math.abs(py - ey) * 2 < ph + eh);
 }
 
 //console.log(allEnemies); //ok making sure we have 3 enemies array
-
-                                          
-                                          // STEP#5 ***** EVENT LISTENER *****//
+//https://www.youtube.com/watch?v=oz7pHJ65TEk&feature=youtu.be                                          
+//https://stackoverflow.com/questions/13916966/adding-collision-detection-to-images-drawn-on-canvas
+        
+                                    // STEP#5 ***** EVENT LISTENER *****//
         //***** includes: event listener function every time up, down, right, left arrows are clicked *****//
 
 
@@ -226,8 +225,7 @@ document.addEventListener('keyup', function(e) {
 function refreshGame(){
     window.location.reload();
 } 
-
-
+//https://zoom.us/recording/play/aulotDlzKFegQFIJTaTzKgWvNkVsYtlwO454vL1UPE1Cm6lOUBQCtfVurPOIAGAS?startTime=1529542978000
 
 
 
